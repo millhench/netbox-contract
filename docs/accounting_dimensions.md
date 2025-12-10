@@ -1,9 +1,9 @@
-# Accounting dimensions
 
 !!! note
-    account is considered a accounting dimensions as any other.
+# Accounting dimensions
+    account is considered an accounting dimensions as any other.
 
-It is possible through the plugin config  attribure 'mandatory_dimensions' to set some mandatory dimensions. the attribute will take a list of dimension names. For instance:
+It is possible through the plugin config attribute 'mandatory_dimensions' to set some mandatory dimensions. The attribute will take a list of dimension names. For instance:
 
 ```python
 # configuration.py
@@ -23,7 +23,7 @@ PLUGINS_CONFIG = {
 Refer to the readme file for more information.
 
 !!! warning
-    Accounting dimensions used to be set with a simple json field. Although the field is still available, it is recommended to add dimensions through invoice lines. You will find in the script folder a file which can be imported as netbox custom scripts module which contains a script to perform the migration. You wil need to adjust the script to your needs.
+    Accounting dimensions used to be set with a simple json field. Although the field is still available, it is recommended to add dimensions through invoice lines. You will find in the script folder a file which can be imported as a netbox custom scripts module which contains a script to perform the migration. You wil need to adjust the script to your needs.
 
 
 ![Accounting dimensions](img/accounting_dimensions.png "accounting dimensions")
